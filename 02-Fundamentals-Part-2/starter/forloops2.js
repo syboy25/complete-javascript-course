@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
 const itachi = [
-    'Itachi',
-    'Uchiha',
-    2037-1996,
-    'Assassin',
-    ['Obito','Sasuke', 'Kakashi'],
-    true
+  "Itachi",
+  "Uchiha",
+  2037 - 1996,
+  "Assassin",
+  ["Obito", "Sasuke", "Kakashi"],
+  true,
 ];
 
 // //Looping over arrays backwards
@@ -24,22 +24,22 @@ const itachi = [
 // }
 
 const students = [
-    {
-        name: 'Alice',
-        grades: [85, 90, 75]
-    },
-    {
-        name: 'Bob',
-        grades: [70, 80, 65]
-    },
-    // More students...
+  {
+    name: "Alice",
+    grades: [85, 90, 75],
+  },
+  {
+    name: "Bob",
+    grades: [70, 80, 65],
+  },
+  // More students...
 ];
 
 for (let i = 0; i < students.length; i++) {
-    console.log(`${students[i].name}'s Grades:`);
-    
-    for (let j = 0; j < students[i].grades.length; j++) {
-        console.log(`Subject ${j + 1}: ${students[i].grades[j]}`);
-    }
-    console.log('-------------------------');
+  console.log(`${students[i].name}'s Grades:`);
+
+  for (let j = 0; j < students[i].grades.length; j++) {
+    console.log(`Subject ${j + 1}: ${students[i].grades[j]}`);
+  }
+  console.log("-------------------------");
 }
